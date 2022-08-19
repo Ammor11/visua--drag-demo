@@ -1,18 +1,22 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <VisualEditor />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import VisualEditor from "@/components/VisualEditor.vue";
 
 export default defineComponent({
   name: "HomeView",
   components: {
-    HelloWorld,
+    VisualEditor,
   },
 });
 </script>
+<style lang="scss" scoped>
+.home {
+  height: 100%;
+}
+</style>
