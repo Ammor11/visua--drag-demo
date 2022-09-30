@@ -16,6 +16,14 @@
     >
       图片
     </div>
+    <div
+      class="list"
+      draggable="true"
+      @dragstart="handleDragStart"
+      data-index="2"
+    >
+      按钮
+    </div>
   </div>
 </template>
 

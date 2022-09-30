@@ -30,4 +30,13 @@ const props = defineProps({
 });
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.VText {
+  width: 160px;
+  height: 40px;
+  .text {
+    width: 160px;
+    height: 40px;
+  }
+}
+</style>
